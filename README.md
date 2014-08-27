@@ -1,2 +1,10 @@
-Euler
-=====
+Project-Euler
+========
+This repo contains the problem-solving codes for PrjectEuler.
+All of these codes are coded by R language.
+
+Welcome to discuss the problem.
+
+
+Stefan Yuan 
+2014-08-27
