@@ -29,6 +29,19 @@ findMaxPrime2<-function(x){
         print(c(x,i))
 }
 
+
+maxprime<-600851475143
+littleprime<-2
+while (maxprime!=littleprime) {
+    while (maxprime%%littleprime==0) {
+        maxprime=maxprime/littleprime
+    }
+    littleprime=littleprime+1
+}
+maxprime
+
+
+
 #----------下方为探索过程--------
 x=600851475143
 
