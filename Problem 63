@@ -1,0 +1,17 @@
+options(scipen=200)
+n=0
+record<-c()
+for (i in 1:9){
+    j=1
+    tf=T
+    while(tf==T){
+        if(nchar(i^j)==j){
+            n=n+1
+            j=j+1
+            record<-c(record,i,j)
+        }else {
+            tf=F
+        }
+        }
+    
+}
